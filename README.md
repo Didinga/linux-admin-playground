@@ -50,9 +50,9 @@ Mem:           7.7G        2.1G        5.6G
 
 ```
 linux-admin-playground/
-â”śâ”€â”€ scripts/
-â”‚   â””â”€â”€ system_info.sh    # v1 - system overview
-â””â”€â”€ README.md
+  scripts/
+    system_info.sh    - v1 - system overview
+  README.md
 ```
 
 ---
