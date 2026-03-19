@@ -1,87 +1,28 @@
-# Linux Admin Playground
+# 🐧 Linux Admin Playground
 
-![Shell](https://img.shields.io/badge/Shell-Bash-green?logo=gnu-bash&logoColor=white)
-![Platform](https://img.shields.io/badge/Platform-Linux-lightgrey?logo=linux)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+A hands-on project focused on mastering **Linux Systems Administration**, shell scripting, and environment automation. This repository serves as a progressive learning path from basic file management to advanced system configuration.
 
-A collection of Bash scripts for learning Linux system administration. Built around the concept of progressive versions â€” each script adds new functionality.
+## 🎯 Project Goals
+The main objective is to demonstrate proficiency in managing Linux environments, which is essential for robust software development and reliable testing infrastructures.
 
----
+## 🛠️ Skills & Technologies Covered
+* **Shell Scripting:** Automation of repetitive tasks using Bash.
+* **System Configuration:** Managing users, permissions (ACLs), and groups.
+* **Process Management:** Monitoring system resources and handling signals.
+* **Networking:** Understanding basic diagnostics (IP, ports, SSH configuration).
+* **Package Management:** Handling dependencies and environment setup.
 
-## Scripts
+## 📂 Progressive Milestones
+I am building this project through iterative versions to track complexity growth:
+* **v1.0 - Fundamentals:** Basic directory structures, logging, and permission management.
+* **v2.0 - Automation:** Scripted user creation and automated backup routines.
+* **v3.0 (Planned):** Docker containerization of basic Linux services.
 
-### v1 â€” system_info.sh
-
-Displays a quick overview of the system:
-
-- Hostname and current user
-- System uptime
-- Disk usage
-- Memory usage
-
-#### Usage
-
-```bash
-chmod +x scripts/system_info.sh
-./scripts/system_info.sh
-```
-
-#### Example output
-
-```
-=== SYSTEM INFO ===
-Hostname: my-linux-box
-User: didinga
-Uptime:
- 10:32:15 up 2 days,  3:14,  1 user,  load average: 0.12, 0.08, 0.05
-
-Disk usage:
-Filesystem      Size  Used Avail Use% Mounted on
-/dev/sda1        50G   12G   36G  25% /
-
-Memory usage:
-              total        used        free
-Mem:           7.7G        2.1G        5.6G
-```
+## 🚀 How to Use
+Each directory contains a specific scenario or a script. 
+1. Clone the repo: `git clone https://github.com/Didinga/linux-admin-playground.git`
+2. Navigate to a specific version: `cd version_1`
+3. Check the local `notes.md` for specific tasks and solutions.
 
 ---
-
-## Project Structure
-
-```
-linux-admin-playground/
-  scripts/
-    system_info.sh    - v1 - system overview
-  README.md
-```
-
----
-
-## Requirements
-
-- Linux / macOS
-- Bash 4.0+
-
----
-
-## Roadmap
-
-- [x] v1 - System info (hostname, uptime, disk, memory)
-- [ ] v2 - Process monitor (top processes by CPU/RAM)
-- [ ] v3 - Network info (IP, open ports, active connections)
-- [ ] v4 - Automated backup script
-- [ ] v5 - Log analyzer
-
----
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
-## Author
-
-**Didinga Omodi**
-- GitHub: [@Didinga](https://github.com/Didinga)
-- LinkedIn: [didiomodi](https://www.linkedin.com/in/didiomodi/)
+*"In the world of Linux, if you haven't automated it, you haven't solved it yet."*
