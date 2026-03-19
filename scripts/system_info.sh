@@ -13,3 +13,4 @@ df -h /
 echo
 echo "Memory usage:"
 free -h
+
